@@ -1,3 +1,10 @@
+# QKMJ
+
+QKMJ is a four-seat Traditional-Chinese mahjong game. The original terminal
+client and server remain under `qkmjclient/` and `qkmjserver/`; the local
+browser game is under [`browser/`](browser/README.md).
+
+## Legacy client and server
 
 Here's a fork version for QKMJ systme,
 which is made by sysu(吳先祐).
