@@ -3,4 +3,6 @@
 qkmjclient/qkmj
 qkmjserver/mjgps
 qkmjserver/mjrec
-
+.claude/
+.codex/
+.worktrees/
