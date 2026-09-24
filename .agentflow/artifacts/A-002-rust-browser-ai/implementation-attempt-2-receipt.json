@@ -1,0 +1,21 @@
+{
+  "sha256": "db6b49fb3ff2a4c74b7bd078571a9cbf66f5ae1b4d39892a12f74bf0d235557c",
+  "result_path": "/tmp/qkmj-implementation-a003-fix2/implementation-result.json",
+  "transport": "Runner bounded JSON excerpt parse defect; literal regular file parses and matches exact returned digest. Undeclared clone-root source placement rejected; only declared allowlisted result imported.",
+  "files": {
+    "README.md": "f7a78b5e03f1b4198893306d7980f479f89970b99605663fc8ebbf24543ef262",
+    "browser/Cargo.toml": "67c4e0bcfba6f99290e394a9d1d8a56e0e3d733f53860c29e63742634afd4a96",
+    "browser/src/ai.rs": "9c20791d7726c8fe5a2f1b4a02b50cdda562381fd110fa3fcf17b7aee513b657",
+    "browser/src/engine.rs": "6790076e91768c3920bb6f3ed8ea2bb0914da6f88ac1f6a14949864237fda7e6",
+    "browser/src/lib.rs": "5f9cae43092194880cd127d1baee4f0d3d6dfa5dac18a16ca5cb00f998d3cae7",
+    "browser/src/rules.rs": "7f2821986867106e818f91bfd29bc5c7e9a551b4c28d9f4bbbe41ba17ab98c81",
+    "browser/tests/engine.rs": "8b6abc942c1e0970376c0b67089c216ddcbc8682e62987713f7e3b4e043a77c5",
+    "browser/tests/regressions.rs": "4d4d511e0217f66bedea0df093969839d69e72ae3883fff347d33876f0a4a18e",
+    "browser/web/app.js": "2c059cf1ef6a5e18966f03934dcf1df3ee15dc4f57277c5060eef85432bfedb2",
+    "browser/web/index.html": "b98677b1d43fe086afa3fac01659e554955359833e22537311b19ad30d30b706",
+    "browser/web/styles.css": "7295f3498ee9b760400139dc730306746c7c0b5820c3107ac4efc02c7a637fa9",
+    "browser/web/worker.js": "31f319033e04404f23da3f2d2085fbf1adc01e3d10d42b46d284f02edea50630",
+    "browser/README.md": "9142b7f4ca11b3662a3f2f2bd4292487e5ee71fbdb0e7226d95adcade214716d"
+  },
+  "acceptance": "Candidate only, verified partial-group AI/label/doc defects remain."
+}

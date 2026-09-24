@@ -1,0 +1,31 @@
+   Compiling qkmj_browser v0.1.0 (/Users/kurohsu/dev/qkmj/browser)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.20s
+     Running tests/regressions.rs (browser/target/debug/deps/regressions-7216d822b251a515)
+
+running 2 tests
+test discard_status_uses_the_legacy_suit_labels ... FAILED
+test standard_shanten_counts_five_non_overlapping_partial_groups ... FAILED
+
+failures:
+
+---- discard_status_uses_the_legacy_suit_labels stdout ----
+
+thread 'discard_status_uses_the_legacy_suit_labels' (2844468) panicked at tests/regressions.rs:39:5:
+assertion failed: bamboo.public_state().status.contains("1索")
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+---- standard_shanten_counts_five_non_overlapping_partial_groups stdout ----
+
+thread 'standard_shanten_counts_five_non_overlapping_partial_groups' (2844469) panicked at tests/regressions.rs:6:5:
+assertion `left == right` failed
+  left: 5
+ right: 4
+
+
+failures:
+    discard_status_uses_the_legacy_suit_labels
+    standard_shanten_counts_five_non_overlapping_partial_groups
+
+test result: FAILED. 0 passed; 2 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+error: test failed, to rerun pass `--test regressions`

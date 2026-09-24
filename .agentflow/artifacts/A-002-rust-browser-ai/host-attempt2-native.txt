@@ -1,0 +1,54 @@
+   Compiling qkmj_browser v0.1.0 (/Users/kurohsu/dev/qkmj/browser)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 1.04s
+     Running unittests src/lib.rs (browser/target/debug/deps/qkmj_browser-e327f4595405b099)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/engine.rs (browser/target/debug/deps/engine-6c4c9ebb545da76c)
+
+running 15 tests
+test all_chow_shapes_and_pong_are_legal ... ok
+test exposed_melds_use_actual_tiles ... ok
+test discard_concealed_and_added_kongs_take_replacement_draws ... ok
+test dealer_payment_surcharge_and_wrap_are_reported ... ok
+test direct_tai_flags_and_round_boundaries_are_regressed ... ok
+test public_state_has_no_hidden_wall_or_opponent_hands ... ok
+test reserve_draw_progresses_dealer_once_and_next_hand_is_available ... ok
+test legacy_tai_inventory_and_exclusions_are_regressed ... ok
+test scoring_has_complete_hand_and_correct_kong_source ... ok
+test seeded_opening_conserves_tiles_and_rejects_stale_or_illegal_actions ... ok
+test simultaneous_wins_use_first_clockwise_and_settle_zero_sum ... ok
+test configuration_and_bot_step_are_seeded ... ok
+test fixed_natural_win_and_draw_seeds ... ok
+test policies_ignore_hidden_wall_contents ... ok
+test find_policy_differences ... ok
+
+test result: ok. 15 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.68s
+
+     Running tests/regressions.rs (browser/target/debug/deps/regressions-7216d822b251a515)
+
+running 13 tests
+test bot_step_pauses_for_a_human_claim ... ok
+test door_winds_are_a_rotation ... ok
+test opening_flower_fixture_uses_sorted_original_packet ... ok
+test all_claimed_requires_five_exposed_melds_and_one_tile ... ok
+test five_concealed_triplets_clear_all_triplets ... ok
+test outside_tai_requires_an_outside_pair_and_concealed_suited_group ... ok
+test apply_json_is_human_only_and_atomic ... ok
+test dealer_surcharge_metadata_matches_the_actual_payer ... ok
+test tile_conservation_checks_the_tile_multiset ... ok
+test active_tai_values_match_the_legacy_profile ... ok
+test pinfu_rejects_closed_or_edge_waits ... ok
+test standard_shanten_targets_five_melds ... ok
+test medium_claims_only_when_the_claim_improves_readiness ... ok
+
+test result: ok. 13 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests qkmj_browser
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

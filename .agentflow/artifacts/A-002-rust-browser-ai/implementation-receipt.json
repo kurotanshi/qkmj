@@ -1,0 +1,24 @@
+{
+  "sha256": "f31e145ad7e1d0f0590326a667ee329fa3a5df7c73e601b18a3f6d600741bbbd",
+  "files": [
+    ".gitignore",
+    "README.md",
+    "browser/Cargo.toml",
+    "browser/README.md",
+    "browser/rust-toolchain.toml",
+    "browser/src/ai.rs",
+    "browser/src/engine.rs",
+    "browser/src/lib.rs",
+    "browser/src/rules.rs",
+    "browser/tests/engine.rs",
+    "browser/web/app.js",
+    "browser/web/index.html",
+    "browser/web/styles.css",
+    "browser/web/worker.js"
+  ],
+  "red_files": [
+    "browser/Cargo.toml",
+    "browser/src/lib.rs",
+    "browser/tests/engine.rs"
+  ]
+}

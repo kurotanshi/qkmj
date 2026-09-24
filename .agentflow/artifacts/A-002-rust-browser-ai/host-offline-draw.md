@@ -1,0 +1,7 @@
+# Host current core3/UI2 browser verification
+
+{"status":"fulfilled","value":{"content":[{"type":"text","text":"Emulating network conditions: Offline\nDefault navigation timeout set to 10000 ms\n## Network requests\nShowing 1-6 of 6 (Page 1 of 1).\nreqid=29 GET http://127.0.0.1:8080/?seed=1 [200]\nreqid=30 GET http://127.0.0.1:8080/styles.css [200]\nreqid=31 GET http://127.0.0.1:8080/app.js [200]\nreqid=32 GET http://127.0.0.1:8080/worker.js [200]\nreqid=33 GET http://127.0.0.1:8080/pkg/qkmj_browser.js [200]\nreqid=34 GET http://127.0.0.1:8080/pkg/qkmj_browser_bg.wasm [200]"}]}}
+
+{"status":"fulfilled","value":{"content":[{"type":"text","text":"Emulating network conditions: Offline\nDefault navigation timeout set to 10000 ms\n## Console messages\n<no console messages found>"}]}}
+
+{"status":"fulfilled","value":{"content":[{"type":"text","text":"Script ran on page and returned:\n```json\n{\"states\":265,\"messages\":265,\"result\":{\"winner\":null,\"source\":null,\"winning_tile\":null,\"decomposition\":null,\"payment_source\":null,\"total_tai\":0,\"tai\":[],\"base_value\":500,\"tai_value\":200,\"changes\":[0,0,0,0],\"dealer_before\":0,\"consecutive_dealer_before\":0,\"dealer_continued\":true,\"dealer_surcharge_tai\":0,\"dealer_after\":0,\"round_wind_after\":1,\"consecutive_dealer_after\":1,\"revealed_hands\":[[26,28,31,33,34,41,42],[7,8,9,15,16,17,26,28,29,29,42,43,43],[2,3,4,27,28,29,33,33,42,43],[5,6,12,14,22,23,24,28,29,33,41,41,42]],\"draw\":true},\"wall\":16,\"errors\":[],\"focus\":\"result-title\"}\n```"}]}}

@@ -1,0 +1,7 @@
+* _2026-09-24 18:45:41 (gpt-5.6-luna/max)_
+
+Observed: RUN-012 and RUN-014 record a bounded-file JSON parser excerpt defect: the runner’s captured excerpt failed on trailing non-whitespace, while the final literal result file parsed and its SHA256 matched. RUN-014 also records that adjusted legal fixture data changed the final result; an exact result-file identity check caught the draft/final mismatch before import. The reference-UI preflight failed before model startup because the image argument consumed the prompt, showing a transport failure independent of product work. Native/Wasm checks passed with explicit Rust 1.98.1 compiler routing. Only the scoped browser README content was imported; the original root README bytes were preserved except for the authored browser-link introduction.
+
+Inference: A bounded JSON reader should parse the complete declared file when available, treat excerpts as transport evidence, and surface trailing-content and identity mismatches. Acceptance should bind path, bytes, SHA256, and final fixture evidence. Commands should name the browser manifest and route RUSTC/RUSTDOC explicitly, preventing root-directory or toolchain ambiguity. README imports should be section-scoped and byte-preserving outside the request; bootstrap/build instructions belong only when runnable and relevant, not as host diary material.
+
+Self-check: This report uses only A-003 RUN-008–RUN-014 and the three specified artifacts; no tests or network were run.

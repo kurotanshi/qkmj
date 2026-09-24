@@ -1,0 +1,29 @@
+{
+  "changed_files": [
+    ".gitignore",
+    "README.md",
+    "browser/Cargo.lock",
+    "browser/Cargo.toml",
+    "browser/README.md",
+    "browser/rust-toolchain.toml",
+    "browser/src/ai.rs",
+    "browser/src/engine.rs",
+    "browser/src/lib.rs",
+    "browser/src/rules.rs",
+    "browser/tests/engine.rs",
+    "browser/tests/regressions.rs",
+    "browser/web/app.js",
+    "browser/web/index.html",
+    "browser/web/styles.css",
+    "browser/web/worker.js"
+  ],
+  "changed_lines": 6522,
+  "behavior_change": true,
+  "trust_boundary": true,
+  "broad_change": true,
+  "consequential_change": true,
+  "original_ask_path": ".agentflow/devlog.md",
+  "normal_journey_path": ".agentflow/artifacts/A-002-rust-browser-ai/design.md",
+  "workspace_layout_change": false,
+  "owner_control": "default"
+}

@@ -1,0 +1,12 @@
+{
+  "sha256": "9f99274121e15ae54160726f6d5316569095ccc20c2ba05cf267d24b87727a52",
+  "files": {
+    "browser/src/ai.rs": "867b36ffbbbc040953c38cb855859cce311c618fd71f286f3f9fd0e6d7df65d3",
+    "browser/src/engine.rs": "9350214fa7d5c803f4774320905351b9f6d2db998c7d154630986ab5ed601239",
+    "browser/tests/regressions.rs": "adb837b6e8a5fb8f6c80373e8afd8aa3a60f5c616b342b24981c71b2f87db1bc",
+    "browser/README.md": "f5b9293748c13df10913e6ae7d75d05c219ef8c93f1995f8edd06ed01cde6bb0",
+    "browser/rust-toolchain.toml": "9500030ccefd0bab631fb7f1763f79f4103eca3a344c36cf15be869e330683bb"
+  },
+  "exit": 0,
+  "final_red_tests_reproduced": true
+}

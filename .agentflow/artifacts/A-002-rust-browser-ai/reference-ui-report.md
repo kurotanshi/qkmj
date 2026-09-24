@@ -1,0 +1,3 @@
+* _2026-09-24 18:27:26 (gpt-5.6-luna/max)_
+Implemented the reference-ui pass as terminal-native HTML/CSS/ES modules: compact 74/26 desktop table, dense ANSI-colored tile text, hidden opponent backs before result, real rivers/melds/flowers, result frame, bounded Worker status log, right scores/actions, and physical-seat compass. Preserved the frozen Worker protocol and public/private snapshot contract; no Rust, Worker, dependency, or legacy files changed.
+Self-check: node --check, static DOM/state compatibility, and reference-driven source review completed; no integrated browser/Wasm runtime was available in this workspace.

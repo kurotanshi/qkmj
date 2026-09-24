@@ -1,0 +1,27 @@
+{
+  "sha256": "d1e8103b38cb697b4f4094efc1963cce58e055ff6364819e0f8870ee62f4600d",
+  "files": {
+    "browser/Cargo.toml": "353241bcd6b6c1da5509113daa38adb33a4c5e37b47759d0061e48f4c9db0cd0",
+    "browser/rust-toolchain.toml": "285f52b2ffc4216dd148af7430782c22cc85d70313e3b77ea1d9f59c41c2bb4b",
+    "browser/src/ai.rs": "d3af559c8793e74ef16230605d73c7d887c2796fb6bbddf09ae44bc645f062ce",
+    "browser/src/engine.rs": "a6a3d1b94bb9cebbe29065cc60e005dbe7ab1c43a4fed90583881ac54658ad11",
+    "browser/src/lib.rs": "caeed64306e013c553ce7b53b6c8fe343026130af3292518e39afab84a3ac0ae",
+    "browser/src/rules.rs": "c59c402b26f3055027d3cc56e616660984c903dd2bb3f7caa12023e37936121b",
+    "browser/tests/engine.rs": "e88ba2ff2e6ce14e28b9e59b8898b1ac6243c73a787ab7f3cc9b096cac558957",
+    "browser/web/index.html": "29c240db714614a05dfaf680db46054d58f57bf4c3a278aff9ceda0732e8c532",
+    "browser/web/app.js": "c050ba46091d8409244e870665db699f72c0beb7de5694d8496639e7dbef06b2",
+    "browser/web/worker.js": "802dd91d52e08719e93d57a804eb07fb5a2596fc3de5e879df18f4bdfc71513f",
+    "browser/web/styles.css": "ddc3f258753cc91e415dec6ad32d4093e0e67d57783efc375b2634e4a57aab3c",
+    "browser/README.md": "3f31151b67beae29d6f796727d6f0c29fc4220a9da1dcd1a3d98e17be29558ad",
+    "README.md": "de3af6d24cd7b5e0bb00bacccaaed9eb0aa4afd5e9adf702395abafd0788fc61",
+    ".gitignore": "409f33dfe88996ae764802038debdbf0474bee41e82e353e0187be1c098f65a6"
+  },
+  "changes_since_candidate": [
+    "browser/src/engine.rs",
+    "browser/src/lib.rs",
+    "browser/tests/engine.rs",
+    "browser/web/index.html",
+    "browser/web/app.js",
+    "browser/README.md"
+  ]
+}

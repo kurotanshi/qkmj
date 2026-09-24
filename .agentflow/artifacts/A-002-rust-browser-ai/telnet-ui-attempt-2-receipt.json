@@ -1,0 +1,10 @@
+{
+  "result_path": "/tmp/qkmj-telnet-ui-a003-fix2/telnet-ui-result.json",
+  "sha256": "b72ed0f2fa0da8b256cb461b12bd5e1e170643d9234d44db440c2ee92186dbb8",
+  "byte_length": 20805,
+  "changed_clone_paths": [
+    "telnet-ui-result.json"
+  ],
+  "transport": "Final regular file independently verified; launcher postprocess failed after runner resolved because stdout is string, not object. Worker exit code unavailable. No paid transport retry.",
+  "source_acceptance": "Candidate only; browser verification pending."
+}

@@ -1,0 +1,9 @@
+{
+  "sha256": "7ace86d02494e9bc8548dbedfc1427c18d24b0b678925b4b9117ed1693c1634e",
+  "exit": 0,
+  "imported_files": {
+    "browser/web/app.js": "abbff66c7b03fd40f42ed7f1bca25bfa9a9c1a6e87a05c5250f114cfa19a0e97",
+    "browser/web/styles.css": "b1e11794a6bc1b9c05ac845d6615848afb703891f4c300f487fb5a0aecb3bbcb"
+  },
+  "integration": "Moved existing exact coarse-pointer 44px block after new desktop overrides, preserving prior touch contract; no new CSS declarations."
+}

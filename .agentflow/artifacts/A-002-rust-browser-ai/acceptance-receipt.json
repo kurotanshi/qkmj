@@ -1,0 +1,6 @@
+{
+  "sha256": "684695918d3a2880c1c7472ffc3ab821bb26e25a66704e5a5c86779b1c6fd8de",
+  "exit": 0,
+  "formal_correction": "Removed literal fresh Taipei from firstline only, preserving timestamp/model/report/verdicts.",
+  "imported_sha256": "7daf7e5008a09dc758238b86385f8601d4d34719c551782becfeb667003d5ed4"
+}

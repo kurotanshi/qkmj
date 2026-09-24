@@ -1,0 +1,9 @@
+{
+  "sha256": "9ac6e693732d6043934900b1b14c4aa83a146918fabfb804b26809b9994baaa8",
+  "files": {
+    "browser/web/app.js": "d0cfcfeb7c515efe527e3bcbdabedf962dc583419ed34b46929c1e19f7561ddb",
+    "browser/web/index.html": "1c04af6c632c444fd839edbfacdded48b08def7cc98e11c29beb71eeb18569a2",
+    "browser/web/styles.css": "250d4991f476841ceba0616c222fedc34edda4f7e76b1fce2d43d7531b2c9061"
+  },
+  "exit": 0
+}

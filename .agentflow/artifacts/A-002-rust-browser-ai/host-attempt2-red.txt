@@ -1,0 +1,55 @@
+   Compiling proc-macro2 v1.0.107
+   Compiling unicode-ident v1.0.26
+   Compiling quote v1.0.47
+   Compiling serde_core v1.0.229
+   Compiling zmij v1.0.23
+   Compiling serde v1.0.229
+   Compiling serde_json v1.0.151
+   Compiling itoa v1.0.18
+   Compiling memchr v2.8.3
+   Compiling syn v3.0.6
+   Compiling serde_derive v1.0.229
+   Compiling qkmj_browser v0.1.0 (/Users/kurohsu/dev/qkmj/browser)
+error[E0425]: cannot find function `standard_shanten` in module `ai`
+   --> tests/regressions.rs:256:20
+    |
+256 |     assert_eq!(ai::standard_shanten(&complete, 0), -1);
+    |                    ^^^^^^^^^^^^^^^^ not found in `ai`
+
+error[E0425]: cannot find function `standard_shanten` in module `ai`
+   --> tests/regressions.rs:257:20
+    |
+257 |     assert_eq!(ai::standard_shanten(&complete[..complete.len() - 1], 0), 0);
+    |                    ^^^^^^^^^^^^^^^^ not found in `ai`
+
+error[E0425]: cannot find function `standard_shanten` in module `ai`
+   --> tests/regressions.rs:258:20
+    |
+258 |     assert_eq!(ai::standard_shanten(&[31, 31], 5), -1);
+    |                    ^^^^^^^^^^^^^^^^ not found in `ai`
+
+error[E0425]: cannot find function `standard_shanten` in module `ai`
+   --> tests/regressions.rs:259:20
+    |
+259 |     assert_eq!(ai::standard_shanten(&[31], 5), 0);
+    |                    ^^^^^^^^^^^^^^^^ not found in `ai`
+
+error[E0609]: no field `dealer_surcharge_tai` on type `&RoundResult`
+   --> tests/regressions.rs:229:23
+    |
+229 |     assert_eq!(result.dealer_surcharge_tai, 1);
+    |                       ^^^^^^^^^^^^^^^^^^^^ unknown field
+    |
+    = note: available fields are: `winner`, `source`, `total_tai`, `tai`, `base_value` ... and 8 others
+
+error[E0609]: no field `dealer_surcharge_tai` on type `&RoundResult`
+   --> tests/regressions.rs:250:41
+    |
+250 |     assert_eq!(dealer.result().unwrap().dealer_surcharge_tai, 0);
+    |                                         ^^^^^^^^^^^^^^^^^^^^ unknown field
+    |
+    = note: available fields are: `winner`, `source`, `total_tai`, `tai`, `base_value` ... and 8 others
+
+Some errors have detailed explanations: E0425, E0609.
+For more information about an error, try `rustc --explain E0425`.
+error: could not compile `qkmj_browser` (test "regressions") due to 6 previous errors

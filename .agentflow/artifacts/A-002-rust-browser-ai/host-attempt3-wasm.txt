@@ -1,0 +1,2 @@
+   Compiling qkmj_browser v0.1.0 (/Users/kurohsu/dev/qkmj/browser)
+    Finished `release` profile [optimized] target(s) in 1.27s

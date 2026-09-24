@@ -1,0 +1,5 @@
+{
+  "sha256": "e1cd284f0a48b59bbf50d18fffe973f1859e59555cd80d4058e2013dbed32a2a",
+  "import": "Three declared files, plus exact authored core2 lifecycle deltas for error recovery and nextHandPending",
+  "acceptance": "Candidate pending realbrowser and core3 integration. displayStatus workaround must be removed after core3 label fix."
+}

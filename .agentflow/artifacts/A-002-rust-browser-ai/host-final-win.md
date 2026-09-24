@@ -1,0 +1,5 @@
+# Final committed live UI, core3 natural winning hand
+
+Commit e3605a4b4394e0a5e2083d8de252eaf5cb4cee24.
+
+{"content":[{"type":"text","text":"Script ran on page and returned:\n```json\n{\"clicks\":26,\"result\":{\"winner\":1,\"source\":\"discard\",\"winning_tile\":22,\"decomposition\":{\"pair\":42,\"sets\":[[2,3,4],[15,15,15],[21,22,23]],\"exposed\":[{\"kind\":\"chow\",\"tiles\":[7,8,9],\"called\":8},{\"kind\":\"pong\",\"tiles\":[24,24,24],\"called\":24}]},\"payment_source\":3,\"total_tai\":1,\"tai\":[{\"id\":16,\"name\":\"花牌\",\"value\":1}],\"base_value\":500,\"tai_value\":200,\"changes\":[0,700,0,-700],\"dealer_before\":0,\"consecutive_dealer_before\":0,\"dealer_continued\":false,\"dealer_surcharge_tai\":0,\"dealer_after\":1,\"round_wind_after\":1,\"consecutive_dealer_after\":0,\"revealed_hands\":[[21,34,41,41],[2,3,4,15,15,15,21,22,23,42,42],[17,18,19,29,29,29,41],[7,8,9,13,14,16,17,18,19,19,25,25,25,26,27,28]],\"draw\":false},\"errors\":[],\"focus\":\"result-title\"}\n```"}]}
