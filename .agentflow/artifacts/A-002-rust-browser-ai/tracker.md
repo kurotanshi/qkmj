@@ -5,13 +5,13 @@
 - **Work key:** A-002-rust-browser-ai.
 - **Active Ask:** A-002.
 - **Goal:** Rebuild QKMJ in Rust/WebAssembly for browser play with selectable AI strength.
-- **Last update:** 2026-09-24 17:08:24 Asia/Taipei.
-- **Evidence commit:** uncommitted.
+- **Last update:** 2026-09-24 17:11:19 Asia/Taipei.
+- **Evidence commit:** 52fc2b88ffef6a930994f8975512c0539954d939.
 
 ## Overall state
 
-- **State:** active.
-- **Reason:** Requirements, design, owner design gate, implementation and verification remain.
+- **State:** blocked.
+- **Reason:** Reviewed design is ready; source work requires the owner's later Design Go for the exact plan commit.
 - **Total:** 5.
 - **Completed:** 1.
 - **Remaining:** 4.
@@ -31,19 +31,19 @@
 ## Current recovery
 
 - **Current item:** T-2.
-- **Last proven result:** Requirements, codewalk and revised specification accepted; design.md is the exact external specification snapshot; product source is unchanged.
-- **Active blocker or running process:** None.
-- **Next safe action:** Freeze and independently review the exact plan commit before requesting required Design Go.
+- **Last proven result:** Design commit 52fc2b88ffef6a930994f8975512c0539954d939 passed independent plan-only review and host acceptance; product implementation remains unstarted.
+- **Active blocker or running process:** Owner Design Go for 52fc2b88ffef6a930994f8975512c0539954d939; no worker is running.
+- **Next safe action:** Receive Design Go for the reviewed plan, then proceed to Rust engine implementation and tests.
 - **Expected changed files:** .agentflow/devlog.md; .agentflow/artifacts/A-002-rust-browser-ai/**. Product paths remain pending design approval.
 
 ## Completion proof
 
 - **All accepted tasks checked:** no.
-- **Blocking accepted decision:** none.
+- **Blocking accepted decision:** Design Go: 52fc2b88ffef6a930994f8975512c0539954d939.
 - **Operation running:** no.
 - **Next action remaining:** T-2.
 - **Evidence status:** current.
-- **Judgment:** active.
+- **Judgment:** blocked.
 
 ## Update meaning
 

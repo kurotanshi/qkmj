@@ -4,19 +4,19 @@ Project: qkmj
 
 Notebook: .agentflow/devlog.md — root.
 
-Current commit: 9e0c7dfb3704a2e07fea88134c0f7f6ed35f08dc — initialization; record-only closeout follows.
+Current commit: 52fc2b88ffef6a930994f8975512c0539954d939 — reviewed plan; record-only closeout follows.
 
-Tests/scenarios: config intake, ignore entries, hook-file existence, whitespace check, and independent configuration review passed.
+Tests/scenarios: plan scope, design/spec identity, R/INV ledger, tracker and whitespace checks passed; independent design review PASS; product tests not yet run.
 
 Configuration: ag.json — schema v7; validated for codex this round.
 
-Proven: Agentflow initialized; external cross-check and Host gate PASS; initialization synchronized with origin/master.
+Proven: local one-human/three-AI scope confirmed; complete Rust/Wasm design reviewed and plan synchronized with origin/master.
 
-Open: no product request supplied; prior AGENTS.md remains untracked; global shell shortcuts not installed.
+Open: required Design Go for 52fc2b88ffef6a930994f8975512c0539954d939; Rust/Wasm/browser implementation pending; earlier AGENTS.md untracked and unchanged.
 
-Next: owner supplies the next request in Ask A-002.
+Next: owner confirms design in Ask A-003; resume A-002-rust-browser-ai tracker and implement the accepted plan.
 
-Artifacts: .agentflow/artifacts/A-001-initialize/ — brief, facts, worker selection, runner evidence, and accepted review.
+Artifacts: .agentflow/artifacts/A-002-rust-browser-ai/ — design, rule map, requirements, specification, tracker, dispatch evidence and independent plan review.
 
 Archived eras: none.
 
@@ -122,8 +122,6 @@ Spec attempt1 returned a report-only result, but host acceptance found concrete 
 - **Running now:** External specification attempt2, correcting reproducible toolchain commands and concrete AI/browser acceptance checks.
 - **Still to do:** Freeze and review the design for required owner Design Go; then implement the Rust/Wasm engine, three AI strengths and browser UI, verify actual play, and complete independent acceptance. Product implementation has not started.
 - **Next work action:** Inspect the returned specification, record host acceptance, and create the exact plan commit for owner review.
-- **Checks:** [x] tracker.md | [x] devlog RUN | [x] scope matches tracker
-
 ## [RUN-007] Event (during round A-002)
 
 * _2026-09-24 17:06:18 (GPT-6/Codex)_
@@ -135,3 +133,71 @@ Spec attempt2 resolves reproducible commands, file paths, scoring labels, AI fai
 * _2026-09-24 17:08:24 (GPT-6/Codex)_
 
 Specification sign-off: PASS. Attempt3 fixes the tool-version gate; comparison with attempt2 proves the intended sentence correction plus fresh timestamp, Markdown escaping and a blank-line difference only. The unchanged semantic content includes all six requirements and eight invariants. The escaped inline backticks are cosmetic and retained in the immutable report; no extra paid validation or semantic rewrite is justified. Both spec-report.md and design.md are exact copies of the returned accepted report. Only the declared report changed in the clone. Design is ready to freeze; tests so far are document/ledger/byte-identity/tracker checks, not product tests. Source work remains pending later Design Go. Planning stays on the main checkout; streams: ask remains unchanged, and any implementation stream choice will be handled with the design decision. No other session work is present.
+
+## [RUN-009] Event (during round A-002)
+
+* _2026-09-24 17:09:15 (GPT-6/Codex)_
+
+Frozen exact plan commit 52fc2b88ffef6a930994f8975512c0539954d939. Changed-path check proves only A-002 records and notebook changed; design/spec identity, R/INV presence, tracker validation and whitespace check passed. cross-check-plan selects full from artifact size (21 files/1889 lines); this is a plan-only review with product tests pending. Launch independent cross-check attempt1 via external-runner-v1, codex-default/better/gpt-5.6-terra/high; read-only product access, one declared report. Original implementation request remains incomplete pending Design Go and subsequent coding/testing.
+
+## [RUN-010] Event (during round A-002)
+
+* _2026-09-24 17:11:19 (GPT-6/Codex)_
+
+Independent plan-only cross-check returned all four PASS verdicts for 52fc2b88ffef6a930994f8975512c0539954d939. The runner's expected clone-root output was absent: the reviewer placed its sole report under the canonical A-002 artifact path inside its disposable clone. Host inspected the actual bounded regular report there and verified that it was the only clone change, with no remotes. Imported that declared report by verified file transport; original bytes retained in cross-check-original-report.md. Mechanically moved the explanatory plan-only suffix onto its own line so the commit field matches the checker; verdicts and substantive content unchanged. No paid retry required for these path/field-format defects. Host gate: PASS for DESIGN READINESS ONLY. Original product request remains pending implementation; no Rust/Wasm/browser tests have run. Plan and report are ready for owner review. Origin fetch completed with no incoming commits.
+
+## [RUN-011] Event (during round A-002)
+
+* _2026-09-24 17:13:11 (GPT-6/Codex)_
+
+Closeout protocol defect: append-reply rejected the completed record because the checkpoint linter includes every subsequent RUN in the WIP span and requires its single verification footer at that span's end. Mechanically relocated that exact footer here; preserved all progress, review and source evidence. The reviewed plan is unchanged; only the mechanical completion check is repeated, with no further paid review or product tests. Scope still consists solely of A-002 records plus the unchanged earlier AGENTS.md. Design Go remains pending for 52fc2b88ffef6a930994f8975512c0539954d939.
+
+- **Checks:** [x] tracker.md | [x] devlog RUN | [x] scope matches tracker
+
+# ← Reply / A-002
+
+* _2026-09-24 17:13:38 (GPT-6/Codex)_
+
+## [SUMMARY]
+
+- The Rust/WebAssembly design is ready and independently reviewed; a playable game has not been implemented.
+- Confirmed scope: local browser, one human plus three AI with selectable Weak/Medium/Strong, without a gameplay server or external AI API.
+- Plan `52fc2b88ffef6a930994f8975512c0539954d939` is committed and synchronized with origin/master; required Design Go is the next step.
+
+## [FINAL REPORT]
+
+### Request: Rust/WebAssembly browser remake with selectable AI
+
+Design preparation succeeded. The [canonical design](artifacts/A-002-rust-browser-ai/design.md) specifies one Rust engine, WebAssembly in a Web Worker, and a Traditional-Chinese HTML/CSS/JavaScript table. It covers dealing, flowers, legal claims, all ordinary kong types, complete wins/wall draws, scoring, next hand and restart, with mouse/touch/keyboard controls.
+
+It preserves active QKMJ 144-tile/16-tile rules and tai/settlement behavior. The approval block explicitly covers verified unsafe scorer corrections, kong-versus-flower replacement scoring, and the reserve guard on all draws. Original no-op rob-kong and special flower wins remain absent; legacy randomized scoring door winds are documented. This is the QKMJ profile, not every Taiwanese mahjong variant.
+
+Weak AI uses legal random choices; Medium evaluates hand readiness; Strong adds bounded lookahead/public risk. Bots use their own hand and public information only. The plan requires crafted difficulty-difference cases and paired-hidden-state fairness tests, without promising a win rate.
+
+### Clarification: local browser plus AI first
+
+Applied: one human and three bots, each configurable before a hand, with Medium as the proposed default. Gameplay has no network requests after static assets are ready. Multiplayer, accounts, persistence, PWA and deployment are excluded. Routine tool versions will be verified/pinned during implementation without another owner decision.
+
+### Evidence, limitations, and next action
+
+Requirements, rule-map and specification gates passed with recorded host clarifications. Design/spec identity, R/INV coverage, tracker, changed-path and whitespace checks passed. Independent review returned Outcome/Minimality/Conformance PASS for design readiness. Report-path/field formatting and a notebook checkpoint-checker defect were corrected mechanically without changing the reviewed design or repeating substantive review.
+
+Cross-check review: .agentflow/artifacts/A-002-rust-browser-ai/cross-check-review.md
+Cross-check implementation: 52fc2b88ffef6a930994f8975512c0539954d939
+Host gate: PASS (design readiness only).
+
+Only workflow records changed. Legacy C and the existing untracked AGENTS.md are preserved. No Rust/Wasm build, executable AI, playable browser journey or product tests exist yet. The tracker retains unfinished work. After Design Go, implement and test the engine, bots and UI, then run real browser verification and independent product acceptance. The original implementation request remains incomplete.
+
+The approval gate comes from [Agentflow SKILL.md](/Users/kurohsu/.agents/skills/agentflow/SKILL.md): “Source work starts only after a later `Design Go: <commit>`.” It applies to this rewrite, so the reviewed plan is presented before that confirmation.
+
+## Questions (batched — each with a suggested default)
+
+- Approve this exact design, including the explicit legacy-rule corrections, for implementation?
+- Suggested default: `Design Go: 52fc2b88ffef6a930994f8975512c0539954d939`
+- ans:
+
+---
+
+# → Ask / A-003
+
++
