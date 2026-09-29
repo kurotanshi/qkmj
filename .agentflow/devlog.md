@@ -1,22 +1,22 @@
 # STATUS
 
-Project: qkmj
+Project: qkmj; independent browser version qkmj-web.
 
 Notebook: .agentflow/devlog.md — root.
 
-Current commit: e3605a4b4394e0a5e2083d8de252eaf5cb4cee24 — tested/reviewed implementation synchronized to origin/master; record-only closeout follows.
+Current commit: original product e3605a4; new qkmj-web c76f45a0ce76ed2ce3e475cb96e9fc4d055cdd22 synchronized to origin/main.
 
-Tests/scenarios: 30 Rust tests, fmt/clippy, fresh Wasm build, real Chrome win/draw/offline/next/restart/keyboard/touch, four desktop sizes and mobile flower/hand visibility passed; security and independent full acceptance PASS.
+Tests/scenarios: 30 Rust tests, release Wasm build and binding generation passed in new checkout; independent extraction review PASS.
 
 Configuration: ag.json — schema v7; validated for codex this round.
 
-Proven: local one-human/three-AI browser game, Weak/Medium/Strong selectors, original terminal appearance, viewport typography, flower clipping fixed; legacy C and untracked AGENTS.md preserved.
+Proven: public https://github.com/kurotanshi/qkmj-web created and pushed; 14 browser files preserved byte-for-byte; old product and AGENTS.md unchanged.
 
-Open: required Result Go for e3605a4b4394e0a5e2083d8de252eaf5cb4cee24. No workers running. Invalid debug seed remains in URL until corrected; normal random sessions unaffected.
+Open: no remaining work for new repository request; previous formal Result Go not supplied. No workers running.
 
-Next: after exact Result Go, record acceptance and complete T5; local preview remains http://127.0.0.1:8080/.
+Next: browser development can continue in /Users/kurohsu/dev/qkmj-web.
 
-Artifacts: .agentflow/artifacts/A-002-rust-browser-ai/ — tracker, final implementation/UI receipts, native/Wasm/browser proof, screenshot, security and A-003-acceptance-report.md.
+Artifacts: .agentflow/artifacts/A-004-new-browser-repo/ — frozen briefs, review receipts and exact-commit PASS report; prior product evidence in A-002-rust-browser-ai/.
 
 Archived eras: none.
 
@@ -496,5 +496,55 @@ All workers have finished. Formal completion alone remains gated. [Agentflow SKI
 ---
 
 # → Ask / A-004
+
+建立新 repo 來存放這個版本
+
+推到哪個 repo 了?
+
+## [RUN-001] Event (during round A-004)
+
+Recorded during 2026-09-24 preparation (GPT-6/Codex).
+
+Direct route: owner explicitly requests a new repository for the current version. Authenticated GitHub owner is kurotanshi; original qkmj is public, qkmj-web is available. Prepare sibling qkmj-web with byte-identical tracked browser files and ignore rules from reviewed e3605a4; add a root README linking original authors, exact source commit and existing build instructions. Preserve old repository and untracked AGENTS.md. No gameplay change, no new consequential design gate, no stream or worker implementation needed. Validate standalone tests/build and narrowly review extraction/documentation before publication. No license is invented.
+
+## [RUN-002] Event (during round A-004)
+
+* _2026-09-29 10:11:19 (GPT-6/Codex)_
+
+Host completed 30 Rust tests, release Wasm build and binding generation in sibling qkmj-web; no gameplay files changed. Review attempt 1 exited 0 with Outcome/Minimality PASS but Conformance BLOCKING: documented clippy writes .acceptance/ and copied ignores omitted it. Verified report SHA and sole clone change review.md; imported evidence. Added /.acceptance/ to new repo ignores to keep verification output out of requested source repository, verified git check-ignore, committed c76f45a. Attempt 2 targeted review uses configured codex-default/better/gpt-5.6-terra/high with frozen facts/brief, no-remotes independent clone, report-only authority and bounded diagnostics. The public GitHub creation timed out after remote success: subsequent API verifies matching description, created_at and empty remote. Recovered without duplicate creation; origin added and initial main push running. User status question answered candidly before retry. Original repo product files and AGENTS.md untouched. No exact Result Go was supplied; new repo creation is independently authorized and does not claim that earlier formal gate.
+
+# ← Reply / A-004
+
+* _2026-09-29 10:13:00 (GPT-6/Codex)_
+
+## [SUMMARY]
+
+- Created and pushed https://github.com/kurotanshi/qkmj-web, branch main.
+- Local checkout: /Users/kurohsu/dev/qkmj-web; original repository preserved.
+- 30 tests, Wasm build and independent review passed.
+
+## [FINAL REPORT]
+
+### Create a new repository for this version
+
+Succeeded. The public repository contains all 14 unchanged browser files from e3605a4, root README with provenance/credits, and build-output ignores. Generated packages, legacy C and workflow records are excluded. The original product and untracked AGENTS.md are unchanged, verified by exact SHA256 comparison. No license change or deployment was made.
+
+Creation initially timed out after remote success. An API check confirmed the matching empty repository; the normal initial push succeeded. Remote main equals c76f45a0ce76ed2ce3e475cb96e9fc4d055cdd22 and the local new checkout is clean. Standalone native tests (30), release Wasm build and binding generation passed. Review attempt 1 identified a missing ignore for documented .acceptance/ output. The one-line correction passed git check-ignore; attempt 2 returned Verdict/Outcome/Minimality/Conformance PASS. Host verified report identity, sole review.md clone write, source blobs and remote commit. Normalized only the empty Self-check footer into a scope statement; immutable runner receipt retains original bytes. All workers finished; review is ready for inspection. Earlier formal Result Go remains unasserted; this explicitly authorized repository transfer is complete.
+
+Cross-check review: .agentflow/artifacts/A-004-new-browser-repo/cross-check-review.md
+Cross-check implementation: c76f45a0ce76ed2ce3e475cb96e9fc4d055cdd22
+Host gate: PASS.
+
+### Which repository received the push?
+
+https://github.com/kurotanshi/qkmj-web — main. The earlier implementation remains in https://github.com/kurotanshi/qkmj. Continue browser development from /Users/kurohsu/dev/qkmj-web.
+
+## Questions (batched — each with a suggested default)
+
+- None.
+
+---
+
+# → Ask / A-005
 
 +
